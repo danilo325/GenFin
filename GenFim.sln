@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CamadaWin", "GenFim\CamadaWin.vbproj", "{1BC836C3-8BA2-4724-90DD-442D29AAA27B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECE77D27-A7E6-4731-893E-98A8A94BDD99} = {ECE77D27-A7E6-4731-893E-98A8A94BDD99}
+		{0020F44F-3402-41FF-AB85-D49313CAEF72} = {0020F44F-3402-41FF-AB85-D49313CAEF72}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CamadaBLL", "CamadaBLL\CamadaBLL.vbproj", "{ECE77D27-A7E6-4731-893E-98A8A94BDD99}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0020F44F-3402-41FF-AB85-D49313CAEF72} = {0020F44F-3402-41FF-AB85-D49313CAEF72}
+		{F82C187F-6F2C-4758-9AC5-D2A9B3F262A9} = {F82C187F-6F2C-4758-9AC5-D2A9B3F262A9}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CamadaDAL", "CamadaDAL\CamadaDAL.vbproj", "{F82C187F-6F2C-4758-9AC5-D2A9B3F262A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0020F44F-3402-41FF-AB85-D49313CAEF72} = {0020F44F-3402-41FF-AB85-D49313CAEF72}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CamadaDTO", "CamadaDTO\CamadaDTO.vbproj", "{0020F44F-3402-41FF-AB85-D49313CAEF72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BC836C3-8BA2-4724-90DD-442D29AAA27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC836C3-8BA2-4724-90DD-442D29AAA27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC836C3-8BA2-4724-90DD-442D29AAA27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC836C3-8BA2-4724-90DD-442D29AAA27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE77D27-A7E6-4731-893E-98A8A94BDD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE77D27-A7E6-4731-893E-98A8A94BDD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE77D27-A7E6-4731-893E-98A8A94BDD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE77D27-A7E6-4731-893E-98A8A94BDD99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F82C187F-6F2C-4758-9AC5-D2A9B3F262A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F82C187F-6F2C-4758-9AC5-D2A9B3F262A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F82C187F-6F2C-4758-9AC5-D2A9B3F262A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F82C187F-6F2C-4758-9AC5-D2A9B3F262A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0020F44F-3402-41FF-AB85-D49313CAEF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0020F44F-3402-41FF-AB85-D49313CAEF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0020F44F-3402-41FF-AB85-D49313CAEF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0020F44F-3402-41FF-AB85-D49313CAEF72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05DCED81-0F3C-4EFE-8B91-BF56D35116E2}
+	EndGlobalSection
+EndGlobal
